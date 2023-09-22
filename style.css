@@ -1,0 +1,314 @@
+#Home {
+	align-items: center;
+	background-image: url('home-image.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+h1 {
+    background-colour:white ;opacity:0.8;
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    -webkit-text-stroke: 2px #F5F5DC;
+}
+
+.home-content{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #F5F5DC;
+}
+
+nav {
+    margin: 0 ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    position:fixed;
+    left: 0;
+    bottom:0;
+    width:100;
+  }
+
+
+/* Style the navigation menu */
+nav {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+nav ul {
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin-left: 1rem;
+    
+}
+
+nav ul li:first-child {
+	margin-left: 1;
+}
+
+nav a {
+	color: #fff;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+
+/* Hero Section */
+#Hero {
+	align-items: center;
+	background-image: url('hero-image.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+.Hero-content {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 2rem;
+    text-align: center;
+}
+
+.Hero-content h1 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.Hero-content p {
+	font-size: 1.5rem;
+	margin: 1rem 0;
+}
+
+.Hero-content button {
+	background-color: #fff;
+	border: none;
+	border-radius: 2rem;
+	color: #333;
+	cursor: pointer;
+	font-size: 1.2rem;
+	padding: 1rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.Hero-content button:hover {
+	background-color: #333;
+	color: #fff;
+}
+.hero-content h1{
+    color:white;
+}
+
+/* Set background color and font family for the entire page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the "About Me" section */
+  #about {
+    background-color: #fff;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  /* Style the profile image */
+  .about-content img {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Style the "Skills" list */
+  .about-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .about-content ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  /* Style the blockquote */
+  .about-content blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-left: 5px solid #666;
+    font-style: italic;
+  }
+  
+  /* Style the "About Me" section heading */
+  #about h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #666;
+  }
+  
+
+  #work {
+    background-color: #fff;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  /* Style the job titles */
+  .work-content h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;}
+
+    .work-content h4{
+        font-size: 24px;
+    }
+
+    #work h2{
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .company-logo{
+        width: 200px;
+        height:auto;
+        vertical-align: middle;
+        justify-content: center;
+        display: inline-block;
+    }
+
+   
+/* Style the "Contact Me" section */
+#contact {
+    background-color: #fff;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the form labels */
+  .contact-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  
+  .contact-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style the form submit button */
+  .contact-content button[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style the email icon */
+  .contact-content img {
+    vertical-align: middle;
+  }
+  
+  /* Style the "Contact Me" section heading */
+  #contact h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #666;
+  }
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    left:0;
+    bottom:0;
+    position:fixed;
+}
+
